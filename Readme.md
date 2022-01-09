@@ -14,9 +14,9 @@
 		For Example lets take as --> C:\Users\Siddharth\Downloads\burp-suite\
 	----------------------------------------------
 	**2.1 Run This Command for Windows in CMD Prompt.**
-		java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:"C:\Users\siddh\Downloads\burp-suite\loader.jar" -noverify -jar "C:\Users\Siddharth\Downloads\burp-suite\burpsuite_pro_v2021.2.1.jar"
+		java --illegal-access=permit --add-opens=java.desktop/javax.swing=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED -Dfile.encoding=utf-8 -javaagent:"C:\Users\siddh\Downloads\burp-suite\loader.jar" -noverify -jar "C:\Users\Siddharth\Downloads\burp-suite\burpsuite_pro_v2021.2.1.jar"
 	**2.2 Run this command for Linux in Terminal. Suppose Your files are in /home/Siddharth/Downloads/burp-suite/**
-		java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:/home/Siddharth/Downloads/burp-suite/loader.jar -noverify -jar /home/Siddharth/Downloads/burp-suite/burpsuite_pro_v2021.2.1.jar &
+		java --illegal-access=permit --add-opens=java.desktop/javax.swing=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED -Dfile.encoding=utf-8 -javaagent:/home/Siddharth/Downloads/burp-suite/loader.jar -noverify -jar /home/Siddharth/Downloads/burp-suite/burpsuite_pro_v2021.2.1.jar &
 	----------------------------------------------
 	**3. Use keygen.jar to generate the License key**
 		java -jar keygen.jar
@@ -36,7 +36,7 @@
 			Set WshShell = Nothing
 	**5.2 For Linux Follow these Steps**
 		1. With Sudo Permissions, Create a file with command "gedit /bin/burp"
-		2. Paste command in text editor "java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:/home/Siddharth/Downloads/burp-suite/loader.jar -noverify -jar /home/Siddharth/Downloads/burp-suite/burpsuite_pro_v2021.2.1.jar &"
+		2. Paste command in text editor "java --illegal-access=permit --add-opens=java.desktop/javax.swing=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED -Dfile.encoding=utf-8 -javaagent:/home/Siddharth/Downloads/burp-suite/loader.jar -noverify -jar /home/Siddharth/Downloads/burp-suite/burpsuite_pro_v2021.2.1.jar &"
 		3. Change Permissions for files with command "chmod +x /bin/burp"
 	----------------------------------------------
 	**6.1 For Executing Burp in Windows, Double Click on burp.VBS file.**
